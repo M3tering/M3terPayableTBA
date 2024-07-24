@@ -2,5 +2,13 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+optimizer = true
+optimizer-runs = 1000
+solc-version = "0.8.24"
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+
+remappings = [
+    "ERC6551Reference@0.3.1/=lib/erc6551/src/"
+]
